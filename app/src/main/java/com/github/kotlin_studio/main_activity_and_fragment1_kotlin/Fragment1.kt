@@ -40,11 +40,16 @@ class Fragment1 : Fragment(), Postman {
         return rootView
     }
 
-    override fun fragmentMail(numberOfClicks: Int) {
-        fun fragmentMail(numberOfClicks: Int) {}
-    }
+    override fun fragmentMail(numberOfClicks: Int) { }
 
 }
+
+
+
+
+
+
+
 
 
 
