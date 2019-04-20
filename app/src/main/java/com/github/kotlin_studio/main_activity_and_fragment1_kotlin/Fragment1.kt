@@ -12,7 +12,7 @@ import org.jetbrains.anko.toast
 
 
 /**
- * A Fragment1 subclass.
+ * A Fragment1 subclass (without Postman)
  */
 class Fragment1 : Fragment() {
 
