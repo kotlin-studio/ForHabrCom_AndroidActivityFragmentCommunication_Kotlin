@@ -14,7 +14,7 @@ import org.jetbrains.anko.toast
 /**
  * A Fragment1 subclass.
  */
-class Fragment1 : Fragment(), Postman {
+class Fragment1 : Fragment() {
 
     var counter = 0
     internal var activity: Activity? = null
@@ -38,9 +38,7 @@ class Fragment1 : Fragment(), Postman {
             } catch (ignored: ClassCastException) { }
         }
         return rootView
-    }
-
-    override fun fragmentMail(numberOfClicks: Int) { }
+  }
 
 }
 
